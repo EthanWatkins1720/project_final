@@ -9,7 +9,7 @@ app.use(cors());
 const mongoose = require("mongoose");
 
 
-const upload = multer({ dest: __dirname + "/images" });
+const upload = multer({ dest: __dirname + "/public/images" });
 
 mongoose.connect("mongodb+srv://ethanwatkins1720:projectFinal@cluster0.t7nmysm.mongodb.net/")
     .then(() => console.log("Connected to mongodb"))

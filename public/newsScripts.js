@@ -80,8 +80,13 @@ const showArticles = async() => {
     console.log("Error retrieving JSON")
   }
 
+  let articleColumn = document.getElementById("news-column");
+
   articleJSON.forEach((article) => {
     let section = document.createElement("section");
+    section.classList.add("article");
+
+    articleColumn.append(section);
     
     let h2 = document.createElement("h2");
     section.append(h2);

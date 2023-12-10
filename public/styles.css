@@ -299,6 +299,11 @@ body {
     display: none;
 }
 
+.article {
+    background-color: rgba(222, 134, 143, 42);
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
 
     #burger div{
