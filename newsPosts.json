@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Nvidia Announces New Groundbreaking Quantum GPU",
+        "author": "Johnny B. Goode",
+        "date": "August 17th, 2018",
+        "images": ["RTX-3060-Ti.webp", "RTX-3060-Ti-fans.webp"],
+        "paragraphs": ["A part of their recent effort to gain an even stronger grasp on the professional market, Nvidia has unvealed a new concept GPU using quantum computing. Aimed at the scientific community, a community Nvida has been notably absent in due to specialized machines already existing, they hope this compact, scalable piece of quantum power will be the step that makes them a name in every lab. When asked for comment, Nvida CEO Jensen Huang stated, \"It's like a flux capacitor but for computers.\" After the announcement, Nvida stock rose .05%.", " Many universities across the globe have already been granted early release units via Nvida's education partners program in exchange for feedback and data on the unit's performance in return. This program has long proven beneficial to Nvida as it was this program that lead to the creation of Nvida's highly successful Turing architecture. In the mean time, non-educational labs wait eagerly in the queue to be next to try this powerful card.", "The design leans heavily on the design patterns introduced in the recently launched RTX 3000 series line of consumer gaming GPU's, an impressive feat given the amount of processing power packed into the unit. It seems Nvida's new flow-through design pattern for air cooling GPU's has proven itself powerful enough to handle the heat put out by these units."]
+    }
+]

@@ -1,0 +1,363 @@
+body {
+    background-color: #e5e5f7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    width: 200px;
+}
+
+#main-nav {
+	background: blue;
+    font-weight: bold;
+    width: 100%;
+    display: grid;
+}
+
+#main-nav a {
+	display: inline-block;
+	margin: 10px;
+	text-decoration:none;
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-nav li{
+	text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+}
+
+#main-nav li:hover {
+    background: gray;
+}
+
+#main-nav ul{
+	text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+}
+
+#burger div{
+	width: 35px;
+	height: 5px;
+	margin: 6px 0;
+	background-color: cornflowerblue;
+	display: none;
+}
+
+
+#title-search input{
+    position:relative;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#logo-title {
+    display: inline-block;
+}
+
+#logo-title h1 {
+    display: inline;
+}
+
+#page-title {
+    text-align: center;
+}
+
+.prev-news-post {
+    display: flex;
+    margin: 2%;
+    background-color: rgba(222, 134, 143, 42);
+}
+
+.prev-forum-post {
+    display: flex;
+    margin: 2%;
+    background-color: rgba(147, 210, 243, 54);
+}
+
+.prev-image {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.prev-text {
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.prev-title {
+    display: inline;
+}
+
+.prev-author {
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+.about-us-text {
+    margin: 2%;
+    padding: 1%;
+    background-color: rgba(204, 247, 131, 36);
+}
+
+#new-post-button {
+    text-align: center;
+}
+
+.forum-preview {
+    display: flex;
+    background-color: rgba(147, 210, 243, 54);
+    margin: 2%;
+}
+
+.user-prev {
+    padding: 1%;
+}
+
+.forum-desc-prev {
+    display: block;
+}
+
+.forum-text-prev {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.forum-image-prev {
+    margin-right: 1%;
+}
+
+.image-prev {
+    margin-top: 5%;
+    width: 300px;
+}
+
+#account-box {
+    background-color: rgba(213, 184, 250, 55);
+}
+
+#user-image {
+    margin: 2%;
+}
+
+#user-info {
+    display: flex;
+}
+
+#user-info h3 {
+    display: block;
+}
+
+#user-desc {
+    margin: 2%;
+}
+
+#change-buttons {
+    margin: 2%;
+}
+
+#save-button {
+    margin-left: 46%;
+}
+
+#delete-button {
+    margin-left: 45.85%;
+    margin-top: 20%;
+    margin-bottom: 1%;
+}
+
+#submit-formEX {
+    text-align: center;
+}
+
+.post {
+    background-color: rgba(147, 210, 243, 54);
+    margin: 2%;
+    padding: 2%;
+}
+
+#postEX {
+    display: none;
+}
+
+#success-message {
+    margin-left: 2%;
+    display: none;
+}
+
+.forum-user-info {
+    margin:-2%;
+    display: flex;
+}
+
+.pfp-prev {
+    width: 70px;
+}
+
+.pfp {
+    margin: 1%;
+    width: 100px;
+}
+
+#post-title {
+    text-align: center;
+}
+
+#forum-image {
+    text-align: center;
+}
+
+.post-image {
+    width: 400px;
+}
+
+#post-description {
+    text-align: center;
+}
+
+.comment {
+    background-color: rgba(147, 210, 243, 54);
+    display: flex;
+    margin: 2%;
+}
+
+.comment-text {
+    margin-left: 1.5%;
+}
+
+#news-form {
+    background-color: rgba(222, 134, 143, 42);
+    margin: 2%;
+    padding: 2%;
+    display: none;
+}
+
+#news-heading {
+    text-align: center;
+}
+
+#central-news-image {
+    text-align: center;
+}
+
+.central-image {
+    width: 400px;
+}
+
+.secondary-image {
+    width: 250px;
+}
+
+#the-rest {
+    display: flex;
+    margin-right: 2%;
+}
+
+#central-image-entry {
+    margin: 1%;
+}
+
+#secondary-image-entry {
+    margin: 1%;
+}
+
+#text {
+    width: 100%;
+    height: 200px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.contact-input {
+    width: 50%;
+    padding: 5px;
+    margin: 2px;
+}
+
+.delete-button {
+    font-family: sans-serif;
+}
+
+#real-delete-button-div {
+    text-align: center;
+    background-color: khaki;
+    padding: .5%;
+    margin: .5%;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #burger div{
+		display: grid;
+	}
+
+    #main-nav {
+        display: none;
+    }
+
+    #main-nav ul {
+        display: block;
+    }
+
+    .prev-news-post {
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        background-color: rgba(222, 134, 143, 42);
+    }
+    
+    .prev-forum-post {
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        background-color: rgba(147, 210, 243, 54);
+    }
+
+    .prev-image {
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    
+    .prev-text {
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    .forum-preview {
+        display: block;
+        text-align: center;
+    }
+
+    .forum-text-prev p {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .image-prev {
+        margin-bottom: 2%;
+    }
+
+    .user-prev p {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}

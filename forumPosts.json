@@ -1,0 +1,10 @@
+[
+    {
+        "user-id": "2",
+        "date": "August 18, 2017",
+        "time": "12:08 PM",
+        "title": "Nvidia's New GPU Sucks",
+        "images": ["RTX-3080.webp"],
+        "description": "Don't ask how I got access to it, but I managed to get my hands on Nvidia's new 'quantum' GPU (whatever that means). Let's just say the experience was less than stellar. First, it's not a GPU. I don't know who decided to call it a GPU. It has display out, sure. But this is a compute unit first and foremost. It runs computations really fast! I'll give it that. It's not the fastest I've seen, but it's swift. The real issue is that it's fast and WRONG. I've had to go back and redo so many calculations with the old machines since we decided to swap to these at my place of work. It sucks! They'd make better doorstops!"
+    }
+]

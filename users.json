@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "name":"Zan the Man",
+        "joined": "August 17, 2018",
+        "description": "The Man with the Plan himself! A proud computer scientist doing research at University of [REDACTED]! Hobbies include Mobile Suit Gundam, computer repair, and audiophile nonsense! Fun fact! Did you know Pokemon is the biggest franchise in the world? Cool huh!",
+        "pic":"images/snail.png",
+        "password":"iTried2018"
+    },
+    {
+        "id":"2",
+        "name":"J.B. The Terrible",
+        "joined": "August 17, 2018",
+        "description": "Scientist and professional Nvidia troll. Lmao.",
+        "pic":"images/alien.png",
+        "password":"Nvidiabad!"
+    }
+]
