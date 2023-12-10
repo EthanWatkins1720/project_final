@@ -67,6 +67,7 @@ const resetForm = () => {
   const form = document.getElementById("add-news");
   form.reset();
   form._id = "-1";
+  document.getElementById("news-column").innerHTML = "";
 };
 
 const showArticles = async() => {
@@ -101,7 +102,7 @@ const showArticles = async() => {
     date.innerHTML = article.date;
 
     let img = document.createElement("img");
-    img.classList.add("image");
+    img.classList.add("news-image");
     section.append(img);
     img.src= article.image;
 
